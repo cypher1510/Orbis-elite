@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0a0a0a;
+    color: white;
+}
+
+/* NAVBAR */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: black;
+}
+
+header h1 {
+    color: #d4af37;
+}
+
+nav a {
+    color: white;
+    margin-left: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #d4af37;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background: url('https://source.unsplash.com/1600x900/?luxury,travel') center/cover;
+}
+
+.overlay {
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.overlay h2 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+.overlay p {
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+/* BUTTON */
+button {
+    padding: 12px 25px;
+    background: #d4af37;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: white;
+}
+
+/* TAGLINE */
+.tagline {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+h2 {
+    color: #d4af37;
+}
+
+/* DESTINATIONS */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    text-align: center;
+    transition: 0.4s;
+}
+
+.card img {
+    width: 220px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+/* HOVER EFFECT */
+.card:hover img {
+    transform: scale(1.1);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 30px;
+    background: black;
+    color: #777;
+}
