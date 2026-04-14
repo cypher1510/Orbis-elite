@@ -8,7 +8,7 @@ body {
 /* NAVBAR */
 header {
     display: flex;
-    align-items: center;
+    align-items: center; /* edited by rasheed */
     justify-content: space-between;
     padding: 20px 50px;
     background: black;
@@ -32,8 +32,8 @@ nav a:hover {
 /* HERO */
 .hero {
     height: 100vh;
-    background: url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600') center/cover;
-    background-attachment: fixed;
+    background: url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1600') center/cover; /* edited by rasheed */
+    background-attachment: fixed; /* edited by rasheed */
     position: relative;
 }
 
